@@ -27,7 +27,7 @@ This model requires you to create a 'data' folder in the current directory to st
    gene expression matrix of spots, in the 'gene×spot' format.
 
 ```
-python geneFilter.py
+python cancer_maker_filter.py
 Rscript makePseudo.R
 python getGraph.py
 python runModel.py
